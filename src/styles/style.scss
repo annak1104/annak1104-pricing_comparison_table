@@ -1,1 +1,26 @@
 @import "variables";
+@import "mixins";
+
+body {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: $family-roboto;
+  color: #060b35;
+  margin: 0;
+}
+
+.plan{
+
+  &__header {
+    @include text-center;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+}

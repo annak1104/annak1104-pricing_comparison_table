@@ -1,4 +1,24 @@
 * {
   box-sizing: border-box;
   list-style-type: none;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Roboto", "Helvetica", sans-serif;
+  color: #060b35;
+  margin: 0;
+}
+
+.plan__header {
+  text-align: center;
+}
+.plan__row {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
