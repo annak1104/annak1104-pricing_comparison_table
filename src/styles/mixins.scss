@@ -1,3 +1,15 @@
 @mixin text-center {
   text-align: center;
 }
+
+@mixin onTablet {
+  @media (max-width: 674px) {
+    @content;
+  }
+}
+
+@mixin onMobile {
+  @media (max-width: 436px) {
+    @content;
+  }
+}

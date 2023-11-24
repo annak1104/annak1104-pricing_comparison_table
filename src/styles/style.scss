@@ -24,5 +24,14 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     gap: 10px;
+
+    @include onTablet {
+      flex-wrap: wrap;
+    }
+
+    @include onMobile {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
