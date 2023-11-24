@@ -52,11 +52,6 @@
   margin-left: 10px;
 }
 
-* {
-  box-sizing: border-box;
-  list-style-type: none;
-}
-
 .card {
   width: 210px;
   background-color: #fff;
@@ -66,7 +61,7 @@
   transition: box-shadow 0.3s;
 }
 .card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 .card__header {
   text-align: center;

@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins";
+@import "reset";
 @import "toggle";
 @import "card";
 
@@ -14,7 +15,6 @@ body {
 }
 
 .plan{
-
   &__header {
     @include text-center;
   }
