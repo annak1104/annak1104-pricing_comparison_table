@@ -116,6 +116,8 @@ body {
 }
 
 .plan__header {
+  margin: 0;
+  padding: 20px 0 20px 0;
   text-align: center;
 }
 .plan__row {
