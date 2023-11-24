@@ -52,6 +52,11 @@
   margin-left: 10px;
 }
 
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
 .card {
   width: 210px;
   background-color: #fff;
@@ -106,6 +111,7 @@
 }
 
 body {
+  background-image: url(../img/popcorn.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
