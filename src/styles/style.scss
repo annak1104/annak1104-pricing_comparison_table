@@ -5,13 +5,14 @@
 @import "card";
 
 body {
-  background-image: url(../img/popcorn.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
   font-family: $family-roboto;
+  height: 100vh;
   color: #060b35;
   margin: 0;
+
+  @include onTablet {
+    height: 100%;
+  }
 }
 
 .plan{
@@ -26,6 +27,7 @@ body {
     justify-content: space-evenly;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 14px;
     gap: 10px;
 
     @include onTablet {
